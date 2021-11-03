@@ -1,2 +1,3 @@
 # style-guide-project
-codacademy style guide project
+This is my codacademy style guide project.
+
