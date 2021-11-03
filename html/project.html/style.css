@@ -1,0 +1,212 @@
+body {
+  background-color: #eaebeb;
+}
+
+.header {
+  text-align: center;
+  height: 4em;
+
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2em;
+  font-family: Roboto Mono;
+}
+
+.colors {
+  border: 1px solid whitesmoke;
+  width: 90%;
+  margin: 1em auto;
+  position: relative;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  border-radius: 5px;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.colors h2 {
+  text-align: center;
+  height: 2em;
+  border-bottom: 2px solid white;
+  width: 85%;
+  margin: 4px auto;
+  font-size: 35px;
+  color: #2c365e;
+  font-weight: 900;
+}
+.fuschia {
+  border: 1px solid #753f83;
+  background-color: #753f83;
+  text-align: center;
+  width: 30%;
+  height: 7em;
+  padding-top: 15px;
+  margin: 25px auto;
+  border-radius: 500px;
+  color: white;
+  font-family: Roboto Mono;
+  font-size: 20px;
+}
+
+.vanilla-orange {
+  border: 1px solid #f8c296;
+  background-color: #f8c296;
+  text-align: center;
+  width: 30%;
+  height: 7em;
+  padding-top: 15px;
+  margin: 25px auto;
+  border-radius: 500px;
+  font-family: Roboto Mono;
+  font-size: 20px;
+}
+
+.pink {
+  border: 1px solid #ec93a2;
+  background-color: #ec93a2;
+  text-align: center;
+  width: 30%;
+  height: 7em;
+  padding-top: 15px;
+  margin: 25px auto;
+  border-radius: 500px;
+  font-family: Roboto Mono;
+  font-size: 20px;
+}
+
+.forest-green {
+  border: 1px solid #31724b;
+  background-color: #31724b;
+  text-align: center;
+  width: 30%;
+  height: 7em;
+  padding-top: 15px;
+  margin: 25px auto;
+  border-radius: 500px;
+  color: white;
+  font-family: Roboto Mono;
+  font-size: 20px;
+}
+
+.color-pair-one {
+  margin-bottom: 3em;
+}
+
+.fonts {
+  border: 1px solid black;
+  width: 90%;
+  margin: 3em auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.fonts h2 {
+  text-align: center;
+  height: 2em;
+  border-bottom: 2px solid black;
+  width: 85%;
+  margin: 4px auto;
+  font-size: 35px;
+  color: #2c365e;
+  font-weight: 900;
+}
+
+.font-one {
+  font-size: 30px;
+  font-family: Roboto Mono;
+  text-align: center;
+}
+
+.font-two {
+  font-size: 30px;
+  font-family: Raleway;
+  text-align: center;
+}
+
+.font-three {
+  font-size: 30px;
+  font-family: PT Sans;
+  text-align: center;
+}
+
+.roboto-mono {
+  margin-left: 41%;
+  font-family: Roboto Mono;
+  font-size: 20px;
+}
+
+.pt-sans-list {
+  margin-left: 41%;
+  font-family: PT Sans;
+  font-size: 20px;
+}
+
+.raleway {
+  margin-left: 41%;
+  font-family: Raleway;
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-styles {
+  border: 1px solid black;
+  width: 90%;
+  margin: 3em auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.text-styles h2 {
+  text-align: center;
+  height: 2em;
+  border-bottom: 2px solid black;
+  width: 85%;
+  margin: 4px auto;
+  font-size: 35px;
+  color: #2c365e;
+  font-weight: 900;
+}
+
+.main-page-container {
+  margin: 10px 40%;
+  width: 80%;
+}
+
+.subheading-container,
+.paragraph-container {
+  display: inline-block;
+  margin: 20px 40%;
+}
+
+.subheading-container h3 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: PT Sans;
+}
+
+.main-page-container h1 {
+  font-family: Raleway;
+}
+
+.paragraph-container h3 {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Roboto Mono;
+}
